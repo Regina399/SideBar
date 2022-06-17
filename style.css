@@ -1,0 +1,107 @@
+
+body{
+    font-family: 'Montserrat';
+    font-style: normal;
+    background: gray;
+}
+
+.menu{
+    width: 60px;
+    background: #FFFFFF;
+    padding: 20px 0;
+}
+
+.menu:hover{
+    width: 250px;
+}
+
+.menu:hover li{
+    display: flex;
+    justify-content: left; 
+    margin-left: 20px;
+}
+
+.simbol{
+    height: 21px;
+}
+
+li{  
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.bar{
+    margin: 50px 0;
+}
+
+.logo{
+    margin-bottom: 15px;
+}
+
+.search{
+    margin-bottom: 50px;
+}
+
+.basic{
+    margin-bottom: 30px;
+}
+
+.set{
+    margin-bottom: 30px;
+}
+
+.bell{
+    margin-top: 70px;
+}
+
+.avatar{
+    margin-top: 60px;
+}
+
+
+.text_name{
+    color: #8D91A0;
+    position: absolute;
+    left: 70px;
+    opacity: 0;
+}
+.menu:hover .text_name{
+    opacity: 1;
+}
+
+.menu:hover .text_name:hover{
+    color: #34353C;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.firstName{
+    padding-top: 6px;
+    color: #34353C;
+    font-weight: 700;
+}
+
+.docket{
+    color: #34353C;
+    font-weight: 700;
+    position: absolute;
+    top: 50px;
+    left: 90px;
+}
+.menu:hover .search{
+    background: #e5f2ff;
+    border-radius: 5.54012px;
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.menu:hover .avatar{
+    position: relative;
+    top: -20px;
+    left: -20px;
+    width: 240px;
+    padding: 15px 5px;
+    background: #e5f2ff;
+}
